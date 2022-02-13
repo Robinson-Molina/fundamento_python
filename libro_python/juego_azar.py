@@ -112,12 +112,13 @@ def run():
     """Juegos de cartas"""
     n=52
 
-    print("------------->NUMERACION DE CARTAS \n")
+    print("------->NUMERACION DE CARTAS \n")
     print(cartas_corazon)
     n = primera_mano(n,"jug")
     n = primera_mano(n,"jug")
     n = primera_mano(n,"jug")
     n = primera_mano(n,"jug")
+
     n = primera_mano(n,"mesa")
 
     #print(baraja)
